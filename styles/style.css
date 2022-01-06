@@ -6,3 +6,130 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    font-family: "Geneva", sans-serif;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+#header_logo{
+    height: 4em;
+    float: left;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+    top: 0px;
+    right: 0px;
+    margin-left: auto;
+}
+
+header ul li{
+    float: left;
+    padding-right: 30px;
+}
+
+header .container{
+    background-image: url("/images/landing.jpg");
+    height: 40em;
+
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#body{
+    padding-top: 2em;
+}
+
+#bodyheader {
+    text-align: center;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#bodyheader hr{
+    border: 0.2em solid green;
+}
+
+.icons{
+    display: flex;
+    text-align: center;
+}
+
+.icon{
+    height: 5em;
+}
+
+.icons h2{
+    color: rgb(51, 156, 51);
+}
+
+.icons > div{
+    display: inline-block;
+    width: 30em;
+    margin: 2em;
+}
+
+.icons span{
+    font-size: 1.3em;
+    font-weight:lighter;
+}
+
+#footer{
+    background-color: rgb(27,177,106);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#footer > div{
+    display: flex;
+}
+
+#spotify_logo_footer{
+    width: 2em;
+    display: inline-block;
+}
+
+#spotify_application{
+    width: 25em;
+}
+/*
+#footer > div{
+    display: block;
+}
+
+#spotify_logo_footer{
+    width: 2em;
+    display: inline-block;
+    position: absolute;
+}
+
+#spotify_application{
+    width:25em;
+    float:right;
+    margin: 1em;
+    display: inline-block;
+}*/
